@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { FaApple } from "react-icons/fa";
 const Trusted = () => {
   return (
     <Wrapper className="brand-section">
@@ -9,31 +9,32 @@ const Trusted = () => {
           {/* my 1st img  */}
           <div className="slide">
             <img
-              src="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667"
+              src="https://cdn-icons-png.flaticon.com/512/152/152752.png"
               alt="trusted-brands"
             />
+           
           </div>
           <div className="slide">
             <img
-                src="https://www.svgrepo.com/show/530487/calculator.svg"
+                src="https://i.pinimg.com/736x/19/53/bf/1953bf829d4fdffc090a89c31d0da64b.jpg"
                 alt="trusted-brands"
             />
           </div>
           <div className="slide">
             <img
-            src="https://camo.githubusercontent.com/48d099290b4cb2d7937bcd96e8497cf1845b54a810a6432c70cf944b60b40c77/68747470733a2f2f7261776769742e636f6d2f676f72616e67616a69632f72656163742d69636f6e732f6d61737465722f72656163742d69636f6e732e737667"
+            src="https://cdn.iconscout.com/icon/free/png-256/free-canon-3-283269.png"
             alt="trusted-brands"
             />
           </div>
           <div className="slide">
             <img
-             src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png"
+             src="https://cdn-icons-png.flaticon.com/512/882/882749.png"
              alt="trusted-brands"
             />
           </div>
           <div className="slide">
             <img
-              src="https://www.svgrepo.com/show/530487/calculator.svg"
+              src="https://cdn-icons-png.flaticon.com/512/588/588337.png"
               alt="trusted-brands"
             />
           </div>
@@ -59,8 +60,8 @@ const Wrapper = styled.section`
   }
 
   img {
-    min-width:6rem;
-    height: 6rem;
+    min-width:50px;
+    height:50px;
   }
 
   .brand-section-slider {

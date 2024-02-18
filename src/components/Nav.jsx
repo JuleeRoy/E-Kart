@@ -229,7 +229,7 @@ const NavBar = styled.nav`
       opacity: 0;
       transform: translateX(100%);
       /* transform-origin: top; */
-      transition: all 3s linear;
+      transition: all 2s linear;
     }
 
     .active .navbar-lists {
@@ -238,7 +238,7 @@ const NavBar = styled.nav`
       transform: translateX(0);
       z-index: 999;
       transform-origin: right;
-      transition: all 3s linear;
+      transition: all 2s ease;
 
       .navbar-link {
         font-size: 2rem;
