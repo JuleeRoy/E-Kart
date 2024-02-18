@@ -1,20 +1,21 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 
-const SingleProductImage = ({img=[{url:""}]}) => 
-{  console.log(img)
+const SingleProductImage = ({image=[{url:""}]}) => 
+{  console.log(image)
 
-  const[mainImage,setMainImage]=useState(img[0])
+  const[mainImage,setMainImage]=useState(image[0])
     //  const[]
   return (
    <Wrapper>
     <div className="grid grid-four-column">
 
       {
-        img.map((curElm,index)=>{
+        image.map((curElm,index)=>{
         return(
           <figure>
-                <img src={curElm.url} alt={curElm.fileName} key={index} onClick={()=>{
+                <img src={curElm.url} alt={curElm.fileName} key={index} 
+                onClick={()=>{
                   setMainImage(curElm)
                 }}></img>
           </figure>
@@ -26,7 +27,9 @@ const SingleProductImage = ({img=[{url:""}]}) =>
     </div>
 
     <div className="main-screen">
-        <img src={mainImage.url} alt={mainImage.filename} />
+        <img src={mainImage.url} 
+        // alt={mainImage.filename} 
+        />
       </div>
    </Wrapper>
   )

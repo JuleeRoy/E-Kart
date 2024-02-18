@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Button } from "../styles/Button";
 import hero3 from "../images/hero3.jpg";
 import  home from "../images/home-banner.jpg"
+import  banner from "../images/Shopping with Us....gif"
 const HeroComponent = ({myData}) => {
   const { name } = myData;
 
@@ -27,7 +28,7 @@ const HeroComponent = ({myData}) => {
           <div className="hero-section-image">
             <figure>
               <img
-                src={hero3}
+                src={banner}
                 alt="home_page_banner"
                 className="img-style"
               />

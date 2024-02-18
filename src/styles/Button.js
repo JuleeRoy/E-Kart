@@ -10,7 +10,7 @@ export const Button = styled.button`
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease !important;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -20,6 +20,8 @@ export const Button = styled.button`
     box-shadow: 0 2rem 2rem 0 rgb(132 144 255 / 30%);
     box-shadow: ${({ theme }) => theme.colors.shadowSupport};
     transform: scale(0.96);
+    background-color:white;
+    color:#E72744;
   }
 
   a {
